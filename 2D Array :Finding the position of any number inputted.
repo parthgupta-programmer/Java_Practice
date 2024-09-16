@@ -1,0 +1,51 @@
+import java.util.*;
+class Helloworld{
+    public static void main(String[]args){//2D Arrayimport java.util.*;
+class Helloworld{
+    public static void main(String[]args){//1-D Array:Finding the position of the number inputted.
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter the no.of Rows & Columns Respectively:");
+        int n=sc.nextInt();
+        // System.out.println("Enter the no. of columns:");
+        int m=sc.nextInt();
+        int arr[][]=new int[n][m];
+        System.out.println("Enter the no .of elements of the matrix:");
+        for(int i=0;i<=n-1;i++){
+            for(int j=0;j<=m-1;j++){
+                arr[i][j]=sc.nextInt();
+            }
+        }
+        System.out.println("Enter the no. to search its position in a matrix:");
+        int s=sc.nextInt();
+        for(int i=0;i<=n-1;i++){
+            for(int j=0;j<=m-1;j++){
+                if(s==arr[i][j]){
+                    System.out.println("Coordinates:" + "(" + i + "," + j + ")");
+                }
+            }
+        }
+    }
+}
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter the no.of Rows & Columns Respectively:");
+        int n=sc.nextInt();
+        // System.out.println("Enter the no. of columns:");
+        int m=sc.nextInt();
+        int arr[][]=new int[n][m];
+        System.out.println("Enter the no .of elements of the matrix:");
+        for(int i=0;i<=n-1;i++){
+            for(int j=0;j<=m-1;j++){
+                arr[i][j]=sc.nextInt();
+            }
+        }
+        System.out.println("Enter the no. to search its position in a matrix:");
+        int s=sc.nextInt();
+        for(int i=0;i<=n-1;i++){
+            for(int j=0;j<=m-1;j++){
+                if(s==arr[i][j]){
+                    System.out.println("Coordinates:" + "(" + i + "," + j + ")");
+                }
+            }
+        }
+    }
+}
